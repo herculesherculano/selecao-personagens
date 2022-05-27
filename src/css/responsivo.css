@@ -3,6 +3,10 @@
         font-size: 40px;
     }
 
+    .selecao-de-personagens .lista-de-personagens .logotipo{
+        height: 160px;
+    }
+
     .selecao-de-personagens .lista-de-personagens{
         max-width: 330px;
     }
@@ -30,10 +34,18 @@
     .selecao-de-personagens .personagem-grande{
         display: none;
     }
+
+    .selecao-de-personagens .lista-de-personagens .logotipo{
+        height: 100px;
+    }
 }
 
 @media(max-width: 360px){
     .cabecalho .titulo{
         font-size: 19px;
+    }
+
+    .selecao-de-personagens .lista-de-personagens .logotipo{
+        height: 100px;
     }
 }
